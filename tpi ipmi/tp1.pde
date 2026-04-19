@@ -18,9 +18,7 @@ void draw (){
   noStroke();
 
 
- 
-  fill(255);
-  text("x:"+ mouseX + " y:" + mouseY,10,20);
+
 
    fill(  199, 175, 139);
    rect(750,0,50,400);
@@ -648,9 +646,6 @@ fill(156, 137, 104);
   
  }
  
- void mousePressed () {
- println("curveVertex(" + (mouseX+400) + ", " + mouseY + ");");
- }
 
                                 
                         
